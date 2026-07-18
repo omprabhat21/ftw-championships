@@ -1,25 +1,29 @@
+import Navbar from "@/components/navbar";
+import Hero from "@/components/hero";
+import Countdown from "@/components/countdown";
+import LatestNews from "@/components/latestnews";
+import Register from "@/components/register";
+import Footer from "@/components/footer";
+import ScrollProgress from "@/components/ScrollProgress";
+
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#0A0A0A] flex flex-col items-center justify-center text-white">
-      <h1 className="text-7xl font-bold tracking-widest">
-        FTW
-      </h1>
+    <>
+      <ScrollProgress />
 
-      <h2 className="mt-4 text-2xl tracking-[0.6em] text-gray-300">
-        CHAMPIONSHIPS
-      </h2>
+      <Navbar />
 
-      <p className="mt-8 text-lg text-yellow-500">
-        Season 7
-      </p>
+      <main className="bg-[#0A0A0A]">
+        <Hero />
 
-      <p className="mt-3 text-gray-400">
-        Official Website Coming Soon
-      </p>
+        <Countdown />
 
-      <button className="mt-10 rounded-lg border border-yellow-500 px-8 py-3 text-yellow-500 transition hover:bg-yellow-500 hover:text-black">
-        Registration Opens Soon
-      </button>
-    </main>
+        <LatestNews />
+
+        <Register />
+
+        <Footer />
+      </main>
+    </>
   );
 }
