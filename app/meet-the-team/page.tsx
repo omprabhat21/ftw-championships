@@ -10,22 +10,22 @@ const TEAM = [
   {
     name: "Anubhav",
     role: "Co-Founder",
-    image: "/team/anubhav.jpeg",
+    image: "/team/anubhav.jpg",
   },
   {
     name: "Soumik",
     role: "Co-Founder",
-    image: "/team/soumik.jpeg",
+    image: "/team/soumik.jpg",
   },
    {
     name: "Dharamveer",
     role: "Core Admin",
-    image: "/team/dharm.jpeg",
+    image: "/team/dharamveer.jpg",
   },
   {
     name: "Ansh Joy",
     role: "Core Admin",
-    image: "/team/ansh.jpeg",
+    image: "/team/ansh.jpg",
   },
 ];
 
