@@ -126,11 +126,11 @@ export default function AboutPage() {
           </p>
 
           <h3 className="mb-5 text-3xl font-bold">
-            Building India's Premier FC Mobile Community
+            Building India&apos;s Premier FC Mobile Community
           </h3>
 
           <p className="leading-8 text-white/70">
-            Our vision is to become one of India's most respected FC Mobile
+            Our vision is to become one of India&apos;s most respected FC Mobile
             tournament platforms by continuously delivering premium events,
             innovative features, and unforgettable competitive experiences.
           </p>
@@ -251,8 +251,8 @@ export default function AboutPage() {
           </p>
 
           <p className="mt-12 text-xl font-semibold italic text-[#D4AF37]">
-            "Great tournaments crown champions. Great communities build
-            legacies. At FTW Championships, we strive to create both."
+            &quot;Great tournaments crown champions. Great communities build
+            legacies. At FTW Championships, we strive to create both.&quot;
           </p>
         </div>
       </section>

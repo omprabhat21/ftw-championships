@@ -189,8 +189,8 @@ export default function FAQPage() {
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-white/60">
-              If you couldn't find the answer you're looking for,
-              don't worry. Our Admin Team is always available to assist
+              If you couldn&apos;t find the answer you&apos;re looking for,
+              don&apos;t worry. Our Admin Team is always available to assist
               you with tournament registrations, matchday issues,
               scheduling, technical support, or general inquiries.
             </p>

@@ -26,7 +26,7 @@ export default function ContactPage() {
       <section className="mx-auto max-w-6xl px-6 py-24">
         <div className="mx-auto mb-20 max-w-3xl text-center">
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.35em] text-[#D4AF37]">
-            We're Here to Help
+            We&apos;re Here to Help
           </p>
 
           <h2 className="text-5xl font-black uppercase">

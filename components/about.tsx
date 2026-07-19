@@ -70,7 +70,7 @@ export default function About() {
 
             <p className="leading-8 text-gray-400">
               Meet skilled competitors, participate in events, build rivalries,
-              make friends and become part of one of India's fastest-growing FC
+              make friends and become part of one of India&apos;s fastest-growing FC
               Mobile communities.
             </p>
 
