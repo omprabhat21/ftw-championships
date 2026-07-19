@@ -4,12 +4,12 @@ import { Phone } from "lucide-react";
 const ADMINS = [
   {
     name: "Anubhav",
-    role: "Lead Admin",
+    role: "Co-Founder",
     phone: "+91  79804 79877",
   },
   {
     name: "Soumik",
-    role: "Lead Admin",
+    role: "Co-Founder",
     phone: "+91 80992 41287",
   },
 ];

@@ -19,12 +19,12 @@ const TEAM = [
   },
    {
     name: "Dharamveer",
-    role: "Core Admin",
+    role: "Core Team",
     image: "/team/dharm.jpeg",
   },
   {
     name: "Ansh Joy",
-    role: "Core Admin",
+    role: "Core Team",
     image: "/team/ANSH.jpg",
   },
 ];
