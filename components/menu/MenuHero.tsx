@@ -128,7 +128,7 @@ export default function MenuHero() {
           tracking-[0.5em]
           text-[#D4AF37]`}
         >
-          SEASON VII
+          SEASON VIII
         </p>
 
       </div>

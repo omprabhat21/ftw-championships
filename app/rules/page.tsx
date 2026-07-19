@@ -386,7 +386,7 @@ export default function RulesPage() {
               </p>
 
               <h2 className="mt-4 text-5xl font-black uppercase text-white">
-                Season VII Rulebook
+                Season VIII Rulebook
               </h2>
 
               <p className="mt-3 text-white/40">

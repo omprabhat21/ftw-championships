@@ -4,21 +4,21 @@ import { Trophy, Medal, Star, ArrowRight } from "lucide-react";
 
 const seasons = [
   {
-    season: "Season VII",
+    season: "Season VIII",
     champion: "TBD",
     runnerUp: "TBD",
     mvp: "TBD",
     year: "2026",
   },
   {
-    season: "Season VI",
+    season: "Season VIII",
     champion: "Coming Soon",
     runnerUp: "—",
     mvp: "—",
     year: "2026",
   },
   {
-    season: "Season V",
+    season: "Season VIII",
     champion: "Coming Soon",
     runnerUp: "—",
     mvp: "—",

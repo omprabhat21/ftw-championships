@@ -14,7 +14,7 @@ export default function RegisterPage() {
     <>
       <PageHero
         current="Registration"
-        title="SEASON VII REGISTRATION"
+        title="SEASON VIII REGISTRATION"
         description="Everything you need to know before joining the biggest FC Mobile tournament."
       />
 
@@ -135,7 +135,7 @@ export default function RegisterPage() {
             </h2>
 
             <p className="mt-4 text-gray-400">
-              Registration for Season VII opens soon.
+              Registration for Season VIII opens soon.
             </p>
 
             <Link

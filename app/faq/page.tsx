@@ -71,7 +71,7 @@ const FAQS = [
   {
     question: "Where can I read the complete Rulebook?",
     answer:
-      "The complete Season VII Official Rulebook can be downloaded from the Rules page.",
+      "The complete Season VIII Official Rulebook can be downloaded from the Rules page.",
   },
 ];
 

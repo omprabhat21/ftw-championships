@@ -72,7 +72,7 @@ export default function Register() {
               Tournament
             </p>
             <h3 className="mt-2 text-2xl font-bold text-white">
-              Season VII
+              Season VIII
             </h3>
           </div>
         </div>

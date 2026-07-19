@@ -155,7 +155,7 @@ export default function Footer() {
 
             <div className="mt-8 rounded-2xl border border-[#D4AF37]/20 bg-[#D4AF37]/5 p-5">
               <p className="text-sm uppercase tracking-widest text-[#D4AF37]">
-                Season VII
+                Season VIII
               </p>
 
               <h4 className="mt-2 text-xl font-bold text-white">

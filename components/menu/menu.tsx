@@ -105,7 +105,7 @@ export default function Menu({ open, onClose }: MenuProps) {
                   <p
                     className={`${oxanium.className} mt-3 text-xs uppercase tracking-[0.45em] text-white/30`}
                   >
-                    SEASON VII
+                    SEASON VIII
                   </p>
                 </div>
 

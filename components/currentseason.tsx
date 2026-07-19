@@ -22,7 +22,7 @@ export default function CurrentSeason() {
               </p>
 
               <h2 className="text-5xl font-black text-white md:text-7xl">
-                SEASON VII
+                SEASON VIII
               </h2>
 
               <p className="mt-8 max-w-xl text-lg leading-8 text-gray-400">
