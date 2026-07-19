@@ -26,7 +26,7 @@ export default function Hero() {
       <div className="relative z-10 flex flex-col items-center px-6 pt-20 text-center">
         {/* Season */}
         <p className="mb-6 text-sm uppercase tracking-[0.6em] text-[#D4AF37] md:text-base">
-          SEASON VII
+          SEASON VIII
         </p>
 
         {/* Logo */}
