@@ -167,7 +167,7 @@ export default function MenuHero() {
         </h1>
 
         <p className="mt-8 max-w-md text-lg leading-8 text-white/60">
-          India's premier FC Mobile championship.
+          India&apos;s premier FC Mobile championship.
           <br />
           Build your legacy.
         </p>

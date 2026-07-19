@@ -9,7 +9,7 @@ export default function Hero() {
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
       {/* Background */}
       <Image
-        src="/hero.png"
+        src="/images/hero.png"
         alt="FTW Stadium"
         fill
         priority

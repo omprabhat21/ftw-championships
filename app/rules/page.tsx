@@ -334,7 +334,7 @@ export default function RulesPage() {
           <ul className="space-y-5 text-lg leading-8 text-white/70">
 
             <li>
-              • Captains are responsible for their team's management and
+              • Captains are responsible for their team&apos;s management and
               player availability.
             </li>
 

@@ -23,6 +23,7 @@ export default function IntroScreen({
   const [quoteIndex, setQuoteIndex] = useState(0);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
 
     const seen = sessionStorage.getItem("ftw-intro");
@@ -73,7 +74,7 @@ export default function IntroScreen({
                 }}
                 className="max-w-4xl text-center text-3xl font-medium italic leading-relaxed tracking-wide text-white md:text-5xl"
               >
-                "{quotes[quoteIndex]}"
+                &quot;{quotes[quoteIndex]}&quot;
               </motion.p>
             </AnimatePresence>
           </motion.div>
