@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="public/logomain.png" alt="FTW Championships Logo" width="600px" style="max-width: 100%; filter: drop-shadow(0px 10px 20px rgba(0,0,0,0.5));" />
 
-## Getting Started
+  # FTW Championships
 
-First, run the development server:
+  ### Play. Compete. Dominate.
 
+  [![Framework](https://img.shields.io/badge/Framework-Next.js%2016%20%28Turbo%29-black?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+  [![Language](https://img.shields.io/badge/Language-TypeScript-blue?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![Styling](https://img.shields.io/badge/Styling-Tailwind%20CSS%20v4-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+  [![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)](https://github.com/omprabhat21/ftw-championships)
+
+  <p align="center">
+    <strong>FTW Championships</strong> is India's premier FC Mobile tournament platform, delivering a world-class competitive experience with premium modern design, interactive live countdowns, real-time news updates, and custom player/team registrations.
+  </p>
+
+  ---
+  
+  [Explore Platform](#-key-features) • [Tech Stack](#%EF%B8%8F-tech-stack) • [Getting Started](#-getting-started) • [Project Structure](#-project-structure)
+</div>
+
+<br />
+
+## 🌟 Key Features
+
+- 🏎️ **Turbopack Powered**: Blazing-fast hot-reloading and development builds.
+- ⏳ **Live Countdown**: Keep track of the days, hours, and minutes leading to Season VII kickoff.
+- 🏆 **Hall of Fame & Stats**: Dedicated pages displaying champions, team rosters, and historical stats.
+- 🎨 **Premium UI/UX**: Immersive dark mode, gold-accented styling, glassmorphic card layouts, and smooth animations using **Framer Motion**.
+- 📋 **Seamless Registrations**: Custom registration flow for new teams and players.
+- 📱 **Fully Responsive**: Optimized for everything from mobile devices to large desktop monitors.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Core Framework:** Next.js 16 (App Router)
+- **UI Library:** React 19
+- **Bundler/Compiler:** Turbopack (`next dev --turbo`)
+- **Styling:** Tailwind CSS v4
+- **Animations:** Framer Motion
+- **Icons:** React Icons, Lucide React
+
+---
+
+## 🚀 Getting Started
+
+To run the project locally on your machine:
+
+### 1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/mohitraj8503/ftw-championships.git
+cd ftw-championships
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install Dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Run the Development Server (with Turbopack)
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) (or the assigned port) in your browser to view the app.
 
-## Learn More
+### 4. Build for Production
+```bash
+npm run build
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+ftw-championships/
+├── app/                  # Next.js App Router (pages and layouts)
+│   ├── about/            # About page
+│   ├── contact/          # Contact details page
+│   ├── faq/              # FAQs page
+│   ├── meet-the-team/    # Meet the team page
+│   └── page.tsx          # Homepage
+├── components/           # Reusable UI React components
+│   ├── common/           # Shared page layouts, page heroes
+│   ├── menu/             # Navigation menu components
+│   └── hero.tsx          # Homepage Hero section
+├── public/               # Static assets (images, logos, SVGs)
+│   ├── images/           # Global images & Hero banners
+│   └── team/             # Team member photos
+└── package.json          # Project dependencies & scripts
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<div align="center">
+  <p>Created with ❤️ by the FTW Championships Team</p>
+</div>
