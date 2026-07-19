@@ -30,14 +30,14 @@ export default function RegisterPage() {
                 Entry Fee
               </p>
               <h3 className="mt-2 text-3xl font-bold text-white">
-                ₹20
+                N/A
               </h3>
             </div>
 
             <div className="rounded-2xl border border-white/10 bg-white/5 p-8">
               <CalendarDays className="mb-4 text-[#D4AF37]" size={34} />
               <p className="text-sm uppercase tracking-widest text-gray-400">
-                Registration Ends
+                Registration Begins
               </p>
               <h3 className="mt-2 text-2xl font-bold text-white">
                 Coming Soon
@@ -50,7 +50,7 @@ export default function RegisterPage() {
                 Slots
               </p>
               <h3 className="mt-2 text-3xl font-bold text-white">
-                64 Players
+                N/A
               </h3>
             </div>
 
@@ -60,7 +60,7 @@ export default function RegisterPage() {
                 Tournament
               </p>
               <h3 className="mt-2 text-2xl font-bold text-white">
-                Season VII
+                Season VIII
               </h3>
             </div>
 

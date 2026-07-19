@@ -32,7 +32,7 @@ export default function Register() {
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-400">
             Registration for{" "}
-            <span className="text-[#D4AF37]">Season VII</span> is now open.
+            <span className="text-[#D4AF37]">Season VIII</span> will begin soon.
             Compete against the best FC Mobile players, earn rewards, climb the
             rankings, and become an FTW Champion.
           </p>
@@ -45,13 +45,13 @@ export default function Register() {
             <p className="text-sm uppercase tracking-widest text-gray-400">
               Entry Fee
             </p>
-            <h3 className="mt-2 text-3xl font-bold text-white">₹20</h3>
+            <h3 className="mt-2 text-3xl font-bold text-white">N/A</h3>
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-lg">
             <CalendarDays className="mb-5 text-[#D4AF37]" size={34} />
             <p className="text-sm uppercase tracking-widest text-gray-400">
-              Registration Ends
+              Registration Begins soon
             </p>
             <h3 className="mt-2 text-2xl font-bold text-white">
               Coming Soon
@@ -63,7 +63,7 @@ export default function Register() {
             <p className="text-sm uppercase tracking-widest text-gray-400">
               Player Slots
             </p>
-            <h3 className="mt-2 text-3xl font-bold text-white">64</h3>
+            <h3 className="mt-2 text-3xl font-bold text-white">N/A</h3>
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-lg">
