@@ -7,6 +7,8 @@ import IntroScreen from "@/components/common/IntroScreen";
 import Navbar from "@/components/navbar";
 import PageTransition from "@/components/PageTransition";
 import ScrollToTop from "@/components/ScrollToTop";
+import MouseGlow from "@/components/MouseGlow";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -70,6 +72,10 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-black">
+        
+
+
+        <MouseGlow />
         <IntroScreen>
           <Navbar />
 
