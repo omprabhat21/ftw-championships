@@ -1,4 +1,4 @@
-import Navbar from "@/components/navbar";
+
 import Footer from "@/components/footer";
 
 interface PageLayoutProps {
@@ -10,7 +10,7 @@ export default function PageLayout({
 }: PageLayoutProps) {
   return (
     <>
-      <Navbar />
+    
 
       <main className="min-h-screen bg-[#0A0A0A]">
         {children}

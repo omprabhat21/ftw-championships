@@ -1,4 +1,4 @@
-import Navbar from "@/components/navbar";
+
 import Hero from "@/components/hero";
 import Countdown from "@/components/countdown";
 import LatestNews from "@/components/latestnews";
@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <ScrollProgress />
 
-      <Navbar />
+      
 
       <main className="bg-[#0A0A0A]">
         <Hero />
