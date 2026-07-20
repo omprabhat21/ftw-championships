@@ -3,11 +3,11 @@ import { Geist, Geist_Mono } from "next/font/google";
 
 import "./globals.css";
 
-import IntroScreen from "@/components/common/IntroScreen";
+
 import Navbar from "@/components/navbar";
 import PageTransition from "@/components/PageTransition";
 import ScrollToTop from "@/components/ScrollToTop";
-import MouseGlow from "@/components/MouseGlow";
+
 
 
 const geistSans = Geist({
@@ -75,8 +75,8 @@ export default function RootLayout({
         
 
 
-        <MouseGlow />
-        <IntroScreen>
+        
+       
           <Navbar />
 
           <PageTransition>
@@ -84,7 +84,7 @@ export default function RootLayout({
           </PageTransition>
 
           <ScrollToTop />
-        </IntroScreen>
+       
       </body>
     </html>
   );

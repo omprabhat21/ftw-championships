@@ -1,63 +1,27 @@
-"use client";
-
-import { useEffect, useState } from "react";
-
 export default function Countdown() {
-  const targetDate = new Date("2026-08-10T23:59:59").getTime();
-
-  const [time, setTime] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0,
-  });
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      const now = Date.now();
-      const distance = targetDate - now;
-
-      if (distance <= 0) {
-        clearInterval(timer);
-        return;
-      }
-
-      setTime({
-        days: Math.floor(distance / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((distance / (1000 * 60 * 60)) % 24),
-        minutes: Math.floor((distance / (1000 * 60)) % 60),
-        seconds: Math.floor((distance / 1000) % 60),
-      });
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, [targetDate]);
-
   return (
-    <section className="bg-[#0A0A0A] py-16 text-center text-white">
-      <h2 className="mb-8 text-3xl font-bold text-[#D4AF37]">
-        Registration Ends In
-      </h2>
+    <section className="bg-[#0A0A0A] py-20">
+      <div className="mx-auto max-w-5xl px-6">
+        <div className="rounded-3xl border border-[#D4AF37]/20 bg-white/[0.03] p-10 text-center shadow-[0_0_40px_rgba(212,175,55,0.08)] backdrop-blur-xl">
 
-      <div className="flex justify-center gap-8 text-3xl font-bold">
-        <div>
-          <p>{time.days}</p>
-          <span className="text-sm text-gray-400">Days</span>
-        </div>
+          <p className="text-sm font-semibold uppercase tracking-[0.4em] text-[#D4AF37]">
+            Season VIII
+          </p>
 
-        <div>
-          <p>{time.hours}</p>
-          <span className="text-sm text-gray-400">Hours</span>
-        </div>
+          <h2 className="mt-5 text-4xl font-bold text-white md:text-5xl">
+            Registration Opening Soon
+          </h2>
 
-        <div>
-          <p>{time.minutes}</p>
-          <span className="text-sm text-gray-400">Minutes</span>
-        </div>
+          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-gray-400">
+            The official registration date has not been announced yet.
+            Once finalized, a live countdown and registration portal will
+            appear here.
+          </p>
 
-        <div>
-          <p>{time.seconds}</p>
-          <span className="text-sm text-gray-400">Seconds</span>
+          <div className="mt-10 inline-flex rounded-full border border-[#D4AF37]/20 bg-[#D4AF37]/10 px-6 py-3 text-sm font-medium text-[#D4AF37]">
+            📢 Official announcement coming soon
+          </div>
+
         </div>
       </div>
     </section>
