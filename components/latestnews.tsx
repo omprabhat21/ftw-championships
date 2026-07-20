@@ -101,7 +101,7 @@ export default function LatestNews() {
     {/* Poster */}
     <div className="p-5">
       <Image
-        src="/images/season8-poster.jpeg"
+        src="/images/season8-poster.jpg"
         alt="FTW Championships Season VIII Official Poster"
         width={700}
         height={980}
