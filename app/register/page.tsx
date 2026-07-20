@@ -30,7 +30,7 @@ export default function RegisterPage() {
                 Entry Fee
               </p>
               <h3 className="mt-2 text-3xl font-bold text-white">
-                N/A
+               ₹15
               </h3>
             </div>
 
@@ -142,7 +142,7 @@ export default function RegisterPage() {
               href="#"
               className="mt-10 inline-flex items-center gap-3 rounded-xl bg-[#D4AF37] px-10 py-5 text-lg font-semibold text-black transition hover:scale-105 hover:bg-yellow-400"
             >
-              Register Now
+              Registrations Opening Soon
               <ArrowRight size={22} />
             </Link>
 
