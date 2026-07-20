@@ -1,6 +1,7 @@
 "use client";
 
 import { Cinzel, Oxanium } from "next/font/google";
+import Image from "next/image";
 
 const cinzel = Cinzel({
   subsets: ["latin"],
@@ -68,16 +69,54 @@ export default function LatestNews() {
             </h1>
 
             <h2
-              className={`${oxanium.className} mt-4 text-4xl font-extrabold uppercase tracking-[0.18em] text-white md:text-6xl`}
-            >
-              Coming Soon
-            </h2>
+  className={`${oxanium.className} mt-4 text-4xl font-extrabold uppercase tracking-[0.18em] text-white md:text-6xl`}
+>
+  Official Poster Released
+</h2>
 
-            <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-gray-400">
-              A new era of FTW Championships is approaching.
-              Prepare for bigger competition, enhanced production,
-              exclusive rewards, and unforgettable moments.
-            </p>
+<p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-gray-400">
+  The official FTW Championships Season VIII tournament poster has been
+  unveiled. Registration dates will be announced soon.
+</p>
+
+<div className="mx-auto mt-14 max-w-md">
+  <div className="group overflow-hidden rounded-[30px] border border-[#D4AF37]/20 bg-gradient-to-b from-[#1A1A1A] to-[#0A0A0A] shadow-[0_0_60px_rgba(212,175,55,0.10)] transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_0_80px_rgba(212,175,55,0.18)]">
+
+    {/* Card Header */}
+    <div className="flex items-center justify-between border-b border-[#D4AF37]/10 px-6 py-4">
+      <div>
+        <p className="text-xs uppercase tracking-[0.35em] text-[#D4AF37]">
+          Official
+        </p>
+        <h3 className="mt-1 text-xl font-bold text-white">
+          Season VIII Poster
+        </h3>
+      </div>
+
+      <span className="rounded-full bg-[#D4AF37] px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-black">
+        NEW
+      </span>
+    </div>
+
+    {/* Poster */}
+    <div className="p-5">
+      <Image
+        src="/images/season8-poster.jpeg"
+        alt="FTW Championships Season VIII Official Poster"
+        width={700}
+        height={980}
+        className="rounded-2xl border border-white/10 transition duration-500 group-hover:scale-[1.02]"
+      />
+    </div>
+
+    {/* Footer */}
+    <div className="border-t border-[#D4AF37]/10 px-6 py-5">
+      <p className="text-sm text-gray-400">
+        Registration opening date will be announced officially soon.
+      </p>
+    </div>
+  </div>
+</div>
 
             <div className="mt-12 flex flex-wrap justify-center gap-6">
               <span className="rounded-full border border-[#D4AF37]/20 bg-[#D4AF37]/10 px-5 py-2 text-sm uppercase tracking-[0.2em] text-[#D4AF37]">
