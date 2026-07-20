@@ -196,3 +196,4 @@ export default function Menu({ open, onClose }: MenuProps) {
     </AnimatePresence>
   );
 }
+

@@ -195,3 +195,4 @@ export default function MenuHero() {
     </motion.div>
   );
 }
+
