@@ -109,6 +109,31 @@ export default function LatestNews() {
       />
     </div>
 
+    <div className="mx-auto mt-10 max-w-md">
+  <div className="rounded-3xl border border-[#D4AF37]/25 bg-gradient-to-br from-[#D4AF37]/15 via-[#151515] to-black p-8 text-center shadow-[0_0_60px_rgba(212,175,55,0.12)]">
+
+    <p className="text-xs uppercase tracking-[0.45em] text-[#D4AF37]">
+      Prize Pool
+    </p>
+
+    <h3 className="mt-3 text-6xl font-black text-[#D4AF37]">
+      ₹7,000
+    </h3>
+
+    <p className="mt-3 text-lg font-semibold uppercase text-white">
+      Total Prize Pool
+    </p>
+
+    <div className="mx-auto mt-6 h-px w-24 bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent" />
+
+    <p className="mt-6 text-gray-400">
+      Compete against the best and battle for glory, rewards, and the
+      Season VIII championship title.
+    </p>
+
+  </div>
+</div>
+
     {/* Footer */}
     <div className="border-t border-[#D4AF37]/10 px-6 py-5">
       <p className="text-sm text-gray-400">
