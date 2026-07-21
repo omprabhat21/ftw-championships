@@ -51,10 +51,10 @@ export default function Register() {
           <div className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-lg">
             <CalendarDays className="mb-5 text-[#D4AF37]" size={34} />
             <p className="text-sm uppercase tracking-widest text-gray-400">
-              Registration Begins soon
+              Registration Is Now Live
             </p>
             <h3 className="mt-2 text-2xl font-bold text-white">
-              Coming Soon
+              Register Now
             </h3>
           </div>
 

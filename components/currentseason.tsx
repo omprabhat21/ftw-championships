@@ -26,7 +26,7 @@ export default function CurrentSeason() {
               </h2>
 
               <p className="mt-8 max-w-xl text-lg leading-8 text-gray-400">
-                Registrations are now open for FTW Championships Season VII.
+                Registrations are now open for FTW Championships Season VIII.
                 Compete against the best FC Mobile players, climb the rankings,
                 win exclusive rewards and secure your place in FTW history.
               </p>
