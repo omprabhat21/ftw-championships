@@ -141,28 +141,7 @@ export default function SeasonCard({ season }: SeasonCardProps) {
           </div>
         </div>
 
-        {season.ballonRanking && (
-          <div>
-            <SectionTitle
-              icon={<Star size={20} className="text-yellow-400" />}
-              title="Ballon de Glory"
-              subtitle="Top Players"
-            />
-
-            <div className="space-y-3">
-              {season.ballonRanking.map((p, i) => (
-                <div
-                  key={`${season.season}-${i}-${p}`}
-                  className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/[0.04] p-4"
-                >
-                  <span className="text-yellow-300 font-semibold">#{i+1}</span>
-                  <span className="text-white">{p}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
+        
       </div>
     </motion.section>
   );
