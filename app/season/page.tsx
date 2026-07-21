@@ -15,7 +15,7 @@ export default function SeasonPage() {
       </h2>
 
       <p className="mt-4 text-white/70">
-        Registration Opens Soon.
+        Registration Is Now Live.
       </p>
     </PageLayout>
   );

@@ -22,7 +22,6 @@ export interface HallOfFameSeason {
   tournaments: Tournament[];
   awards: Award[];
   records: Record[];
-  ballonRanking?: string[];
 }
 
 export const hallOfFame: HallOfFameSeason[] = [
@@ -85,11 +84,11 @@ export const hallOfFame: HallOfFameSeason[] = [
 
   records: [
     {
-      title: "Most Goals Team",
+      title: "Highest Scoring Team",
       value: "Blizzard Titans (146)",
     },
     {
-      title: "Least Goals Conceded",
+      title: "Best Defensive Team",
       value: "El Bicho (95)",
     },
   ],
@@ -155,11 +154,11 @@ export const hallOfFame: HallOfFameSeason[] = [
 
   records: [
     {
-      title: "Most Goals Team",
+      title: "Highest Scoring Team",
       value: "Blizzard Titans (203)",
     },
     {
-      title: "Least Goals Conceded",
+      title: "Best Defensive Team",
       value: "Ace Strikers (138)",
     },
   ],
@@ -229,11 +228,11 @@ export const hallOfFame: HallOfFameSeason[] = [
 
   records: [
     {
-      title: "Most Goals Team",
+      title: "Highest Scoring Team",
       value: "Supa Strikas (118)",
     },
     {
-      title: "Least Goals Conceded",
+      title: "Best Defensive Team",
       value: "Ace Strikers (80)",
     },
   ],
@@ -273,13 +272,14 @@ export const hallOfFame: HallOfFameSeason[] = [
   winner: "Gary",
   runnerUp: "Sayan",
 },
+{
+      name: "Shield Winner",
+      winner: "Allianz Strikers",
+    },
   ],
 
   awards: [
-    {
-      title: "Shield Winner",
-      winner: "Allianz Strikers",
-    },
+    
     {
       title: "Ballon de Glory",
       winner: "Fede",
@@ -312,22 +312,13 @@ export const hallOfFame: HallOfFameSeason[] = [
 
   records: [
     {
-      title: "Most Goals Team",
+      title: "Highest Scoring Team",
       value: "Big Ben (175)",
     },
     {
-      title: "Least Goals Conceded",
+      title: "Best Defensive Team",
       value: "Wukong FC (120)",
     },
-  ],
-
-  ballonRanking: [
-    "1. Fede",
-    "2. Soumyadeep",
-    "3. Ankit Omkar",
-    "4. Alamin",
-    "5. Ayan",
-    "6. Divyam",
   ],
 },
 
@@ -377,13 +368,14 @@ export const hallOfFame: HallOfFameSeason[] = [
   runnerUp: "Noks 1 (Fahad Zaman C)",
   bestPlayer: "MVP: Yash (Spartans 1)",
 },
+{
+      name: "Shield Winner",
+      winner: "Glitch VII",
+    },
   ],
 
   awards: [
-    {
-      title: "Shield Winner",
-      winner: "Glitch VII",
-    },
+    
     {
       title: "Ballon de Glory",
       winner: "Rochan",
@@ -416,21 +408,13 @@ export const hallOfFame: HallOfFameSeason[] = [
 
   records: [
     {
-      title: "Most Goals Team",
+      title: "Highest Scoring Team",
       value: "Allianz Strikers",
     },
     {
-      title: "Least Goals Conceded",
+      title: "Best Defensive Team",
       value: "Allianz Strikers",
     },
-  ],
-
-  ballonRanking: [
-    "1. Rochan",
-    "2. Chirantan",
-    "3. Fede",
-    "4. Susmit",
-    "5. Shlok",
   ],
 },
 
@@ -473,13 +457,14 @@ export const hallOfFame: HallOfFameSeason[] = [
   winner: "Sagnik",
   runnerUp: "Alamin",
 },
+{
+  name: "Shield Winner",
+  winner: "Bengal Kings",
+},
   ],
 
   awards: [
-    {
-      title: "Shield Winner",
-      winner: "The Mysterians",
-    },
+   
     {
       title: "Ballon de Glory",
       winner: "Harsh Mali",
@@ -520,21 +505,13 @@ export const hallOfFame: HallOfFameSeason[] = [
 
   records: [
     {
-      title: "Most Goals Team",
+      title: "Highest Scoring Team",
       value: "The Mysterians",
     },
     {
-      title: "Least Goals Conceded",
+      title: "Best Defensive Team",
       value: "Phoenix Warriors",
     },
-  ],
-
-  ballonRanking: [
-    "1. Harsh Mali",
-    "2. Atharva",
-    "3. Meer",
-    "4. Chirantan",
-    "5. Alamin",
   ],
 },
 
@@ -619,21 +596,13 @@ export const hallOfFame: HallOfFameSeason[] = [
 
   records: [
     {
-      title: "Most Goals Team",
-      value: "El Falcons",
+      title: "Highest Scoring Team",
+      value: "El Falcons(282 goals scored)",
     },
     {
-      title: "Least Goals Conceded",
-      value: "Team Arctic",
+      title: "Best Defensive Team",
+      value: "Team Arctic(181 goals conceded)",
     },
-  ],
-
-  ballonRanking: [
-    "1. Susmit (405 pts)",
-    "2. Bibaswan (342 pts)",
-    "3. Shahrukh (320 pts)",
-    "4. Fede (319 pts)",
-    "5. Snehasis (307 pts)",
   ],
 },
 
