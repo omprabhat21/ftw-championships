@@ -48,31 +48,22 @@ export default function Navbar() {
               className="h-auto w-[100px] md:w-[120px]"
             />
           </Link>
+         {/* Right Side */}
+<div className="flex items-center">
+  <button
+    onClick={() => setMenuOpen(true)}
+    className="flex items-center gap-2 rounded-xl border border-white/10 px-4 py-3 text-white transition-all duration-300 hover:border-[#D4AF37] hover:text-[#D4AF37]"
+    aria-label="Open menu"
+  >
+    <span className="hidden text-xs font-semibold uppercase tracking-[0.25em] md:block">
+      Menu
+    </span>
 
-          {/* Right Side */}
-          <div className="flex items-center gap-4">
-            {/* Register Button */}
-            <Link
-              href="/register"
-              className="hidden rounded-xl border border-[#D4AF37] px-6 py-3 text-sm font-semibold uppercase tracking-wide text-[#D4AF37]
-              transition-all duration-300 hover:scale-105 hover:bg-[#D4AF37] hover:text-black
-              hover:shadow-[0_0_25px_rgba(212,175,55,0.35)] md:block"
-            >
-              Register
-            </Link>
-
-            {/* Menu Button */}
-            <button
-              onClick={() => setMenuOpen(true)}
-              className="flex items-center gap-2 rounded-xl border border-white/10 px-4 py-3 text-white transition-all duration-300 hover:border-[#D4AF37] hover:text-[#D4AF37]"
-            >
-              <span className="hidden text-xs font-semibold uppercase tracking-[0.25em] md:block">
-                Menu
-              </span>
-
-              <Menu size={22} />
-            </button>
-          </div>
+    <Menu size={22} />
+  </button>
+</div>
+          
+          
         </div>
       </nav>
 

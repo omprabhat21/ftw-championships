@@ -44,16 +44,8 @@ export default function Hero() {
           The Premier FC Mobile Tournament Experience
         </p>
 
-        {/* Buttons */}
+        {/* Community Buttons */}
         <div className="mt-10 flex flex-col gap-5 sm:flex-row">
-          {/* Register */}
-          <Link
-            href="/register"
-            className="rounded-xl bg-[#D4AF37] px-10 py-4 text-lg font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-yellow-400 hover:shadow-[0_0_30px_rgba(212,175,55,0.45)]"
-          >
-            Register Now
-          </Link>
-
           {/* WhatsApp */}
           <Link
             href="https://chat.whatsapp.com/DMUUDFy6pGD7YK9vPdVBnd?s=cl&p=a&mlu=0&ilr=0&amv=0"
@@ -62,7 +54,7 @@ export default function Hero() {
             className="flex items-center justify-center gap-2 rounded-xl border border-[#25D366]/40 bg-[#25D366]/10 px-8 py-4 text-lg font-medium text-white backdrop-blur-md transition-all duration-300 hover:scale-105 hover:border-[#25D366] hover:bg-[#25D366]"
           >
             <FaWhatsapp size={22} />
-            WhatsApp
+            Join WhatsApp
           </Link>
 
           {/* Discord */}
@@ -73,7 +65,7 @@ export default function Hero() {
             className="flex items-center justify-center gap-2 rounded-xl border border-[#5865F2]/40 bg-[#5865F2]/10 px-8 py-4 text-lg font-medium text-white backdrop-blur-md transition-all duration-300 hover:scale-105 hover:border-[#5865F2] hover:bg-[#5865F2]"
           >
             <FaDiscord size={22} />
-            Discord
+            Join Discord
           </Link>
         </div>
       </div>
