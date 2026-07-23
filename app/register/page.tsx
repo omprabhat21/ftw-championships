@@ -16,7 +16,7 @@ const info = [
   { icon: Trophy, title: "Tournament", value: "Season VIII" },
   { icon: Users, title: "Prize Pool", value: "₹7000" },
   { icon: CalendarDays, title: "Registration", value: "Open Now" },
-  { icon: Gamepad2, title: "Mode", value: "Solo" },
+  { icon: Gamepad2, title: "Mode", value: "Team" },
   { icon: ShieldCheck, title: "Platform", value: "FC Mobile" },
 ];
 
